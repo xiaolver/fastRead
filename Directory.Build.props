@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <!-- This SDK installation intermittently fails solution restore with parallel graph evaluation. -->
+    <RestoreBuildInParallel>false</RestoreBuildInParallel>
+    <BuildInParallel>false</BuildInParallel>
+  </PropertyGroup>
+</Project>
